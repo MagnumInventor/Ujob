@@ -1,0 +1,43 @@
+Repository structure from 01:23A.M. 11.12.2024
+
+UJOB/
+├── FRONT/
+│   ├── CSS/
+│   │   ├── JOINT.css
+│   │   ├── private-policy.css
+│   │   ├── registration.css
+│   │   ├── terms-of-use.css
+│   │   ├── SERVER-style/
+│   │   │   ├── company-profile.css
+│   │   │   ├── sent-vacancy.css
+│   │   ├── USER-style/
+│   │   │   ├── catalogue.css
+│   │   │   ├── user-profile.css
+│   │   │   ├── vacancy-form.css
+│   │   ├── MAIN.css
+│   ├── HTML/
+│   │   ├── COMPANY/
+│   │   │   ├── company-profile.html
+│   │   │   ├── sent-vacancy.html
+│   │   ├── Formalities/
+│   │   │   ├── private&policy.html
+│   │   │   ├── terms-of-use.html
+│   │   ├── USER/
+│   │   │   ├── catalogue.html
+│   │   │   ├── user-profile.html
+│   │   │   ├── vacancy-form.html
+│   │   │   ├── about-us.html
+│   │   │   ├── landing.html
+│   │   │   ├── registration.html
+├── SERVER/
+│   ├── DATA/
+│   │   ├── COMPANY/
+│   │   │   ├── company-info.json
+│   │   │   ├── Vacancies.json
+│   │   ├── USER/
+│   │   │   ├── Companies.json
+│   │   │   ├── user-info.json
+│   │   ├── documentations.txt
+├── main.js
+├── index.html
+├── README.md
