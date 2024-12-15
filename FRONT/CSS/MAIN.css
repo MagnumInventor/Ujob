@@ -176,7 +176,23 @@
 
 
             /* BODY */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: "Kanit";
+    background-color: rgb(41, 41, 41);
+    color: rgb(228, 235, 232);
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    overflow-x: hidden; /* Приховуємо горизонтальну прокрутку */
+}
         /* BODY */
 
 
