@@ -60,9 +60,50 @@
     </section>
     <button onclick="handleClick()">Click Me</button>
   </main>
-  <footer>
-    <p>&copy; 2024 My Website</p>
-  </footer>
-  <script src="script.js"></script>
+
+
+
+     <footer>
+        <div>
+            <h3>Контакти</h3>
+            <p>Mobile: (+380) 96 042 7745</p>
+            <p>Email: krtxstoreb@gmail.com</p>
+        </div>
+        <div>
+            <h3>Соціальні мережі</h3>
+            <a href="https://www.facebook.com/" target="_blank">Instagram</a> |
+            <a href="https://twitter.com/" target="_blank">Telegram</a> |
+            <a href="https://www.instagram.com/" target="_blank">OLX</a>
+        </div>
+        <div class="footer-links">
+            <a href="Kortex store/FRONT/HTML/private-and-policy.html">Політика конфіденційності</a> |
+            <a href="Kortex store/FRONT/HTML/terms-of-service">Умови обслуговування</a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Всі права захищено | Розроблено Марковичем Олександром</p>
+        </div>
+    </footer>
+
+
+
+  <script>
+    
+    const burgerMenu = document.getElementById('burger-menu');
+    const navMenu = document.getElementById('nav-menu');
+    const navPoints = document.getElementById('nav-points');
+            const BlackLine = document.getElementById('black-line');
+            const SecondBlackLine = document.getElementById('second-black-line');
+    
+    burgerMenu.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+    navPoints.classList.toggle('active');
+    burgerMenu.classList.toggle('active');
+            BlackLine.classList.toggle('active');
+            SecondBlackLine.classList.toggle('active');
+});
+  </script>
+
+
+
 </body>
 </html>
