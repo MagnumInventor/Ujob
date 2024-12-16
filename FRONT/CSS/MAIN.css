@@ -129,15 +129,17 @@ body {
     color: #ffffff;
 
     margin: 0;
-      padding: 0;
-      background-image: url('../../../MEDIA/darkbackground.jpg'); /* Заміни на свій шлях */
-      background-size: cover; /* Масштабування, щоб фон заповнив сторінку */
-      background-repeat: no-repeat; /* Не повторювати */
-      background-position: center; /* Центрувати фон */
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('../../../MEDIA/darkbackground.jpg'); /* Додаємо напівпрозорий шар */
+    background-size: cover; /* Масштабування, щоб фон заповнив сторінку */
+    background-repeat: no-repeat; /* Не повторювати */
+    background-position: center; /* Центрувати фон */
     width: 100%;
-
     overflow-x: hidden; /* Приховуємо горизонтальну прокрутку */
 }
+
+
         /* BODY */
 
 
@@ -163,7 +165,7 @@ footer {
     
     footer p {
     margin: 5px 0;
-    color: #666;
+    color: #e9e9f0;
     }
     
     footer a {
@@ -237,7 +239,7 @@ footer {
                         background-color: transparent;
                     }
                         .black-line.active {
-                            background-color: #a1ada8;
+                            background-color: #e9eeec;
                             height: 3px;
                             width: 100%;
                 
