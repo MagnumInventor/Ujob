@@ -163,10 +163,12 @@ html, body {
     font-size: 60px;
     font-family: "Exo 2", sans-serif;
     font-weight: 700;
+    color: #00D9FF;
 }
 
 .stat p {
     font-size: 24px;
+    color: #FFFFFF;
 }
 
 .info {
@@ -177,13 +179,20 @@ html, body {
 .info h2 {
     font-size: 36px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    margin-bottom: 10px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.info p {
+    font-size: 20px;
+    color: #B0B0B0;
+    margin-top: 20px;
 }
 
 .steps {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
     margin-bottom: 40px;
 }
 
@@ -194,8 +203,9 @@ html, body {
 .step h3 {
     font-size: 30px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    margin-bottom: 10px;
+    font-weight: 600;
+    color: #00D9FF;
+    margin-bottom: 15px;
 }
 
 .step ul {
@@ -206,6 +216,7 @@ html, body {
 .step li {
     font-size: 20px;
     margin-bottom: 10px;
+    color: #B0B0B0;
 }
 
 .access {
@@ -216,7 +227,8 @@ html, body {
 .access h2 {
     font-size: 36px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    color: #FFFFFF;
     margin-bottom: 20px;
 }
 
@@ -241,8 +253,14 @@ html, body {
 .procedure h2 {
     font-size: 36px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
+    color: #00D9FF;
     margin-bottom: 20px;
+}
+
+.procedure p {
+    font-size: 20px;
+    color: #B0B0B0;
 }
 
 .how-it-works {
@@ -252,7 +270,8 @@ html, body {
 .how-it-works h2 {
     font-size: 36px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    color: #FFFFFF;
     margin-bottom: 20px;
 }
 
@@ -265,6 +284,12 @@ html, body {
 .screenshots img {
     width: 400px;
     height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.screenshots img:hover {
+    transform: scale(1.05);
 }
 
         /* BODY */
