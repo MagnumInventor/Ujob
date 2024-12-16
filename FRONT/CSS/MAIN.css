@@ -156,7 +156,7 @@ html, body {
 
 header {
     text-align: center;
-    margin-bottom: 60px;
+    padding: 40px;
 }
 
 header h1 {
@@ -171,7 +171,7 @@ header h1 {
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .stat {
@@ -194,7 +194,7 @@ header h1 {
 /* Основна інформація */
 .info {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .info h2 {
@@ -216,7 +216,7 @@ header h1 {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .step {
@@ -245,7 +245,7 @@ header h1 {
 /* Доступ та можливості */
 .access {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .access h2 {
@@ -272,7 +272,7 @@ header h1 {
 /* Процедура старту */
 .procedure {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .procedure h2 {
@@ -291,7 +291,7 @@ header h1 {
 /* Як це працює: */
 .how-it-works {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .how-it-works h2 {
@@ -324,17 +324,17 @@ hr {
     border: none;
     height: 2px;
     background: linear-gradient(to right, #00D9FF, #00D9FF 50%, #1E1E1E 50%, #1E1E1E);
-    margin: 80px 0;
+    margin: 40px 0;
 }
 
 /* Стилі для кожної секції */
 section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 section .container {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Додаткові стилі для вищої висоти */
@@ -342,8 +342,8 @@ section .container {
     padding-bottom: 120px;
 }
 
-header, .info, .steps, .access, .procedure, .how-it-works {
-    padding: 80px 0;
+.info, .steps, .access, .procedure, .how-it-works {
+    padding: 60px 0;
 }
 
 /* Підвищення висоти на останніх секціях */
