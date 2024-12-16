@@ -166,11 +166,12 @@ header h1 {
     color: #FFFFFF;
 }
 
+/* Статистика - Колонки */
 .stats {
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .stat {
@@ -182,6 +183,7 @@ header h1 {
     font-family: "Exo 2", sans-serif;
     font-weight: 700;
     color: #00D9FF;
+    margin-bottom: 10px;
 }
 
 .stat p {
@@ -189,9 +191,10 @@ header h1 {
     color: #FFFFFF;
 }
 
+/* Основна інформація */
 .info {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .info h2 {
@@ -199,6 +202,7 @@ header h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
 .info p {
@@ -207,11 +211,12 @@ header h1 {
     margin-top: 20px;
 }
 
+/* Кроки інструкцій */
 .steps {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .step {
@@ -237,9 +242,10 @@ header h1 {
     color: #B0B0B0;
 }
 
+/* Доступ та можливості */
 .access {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .access h2 {
@@ -263,9 +269,10 @@ header h1 {
     margin-bottom: 10px;
 }
 
+/* Процедура старту */
 .procedure {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .procedure h2 {
@@ -281,9 +288,10 @@ header h1 {
     color: #B0B0B0;
 }
 
+/* Як це працює: */
 .how-it-works {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .how-it-works h2 {
@@ -311,25 +319,25 @@ header h1 {
     transform: scale(1.05);
 }
 
+/* Розділювальні лінії */
 hr {
     border: none;
     height: 2px;
     background: linear-gradient(to right, #00D9FF, #00D9FF 50%, #1E1E1E 50%, #1E1E1E);
-    margin: 60px 0;
+    margin: 80px 0;
 }
 
-/* Додаткові стилі для більшого простору */
-.container {
-    padding-bottom: 100px; /* Додаємо простір внизу */
-}
-
-header, .info, .steps, .access, .procedure, .how-it-works {
-    padding: 60px 0;
-}
-
-/* Стиль для кольорових розділювальних ліній */
+/* Стилі для кожної секції */
 section {
     padding: 80px 0;
+}
+
+section:nth-of-type(even) {
+    background: #1E1E1E;
+}
+
+section:nth-of-type(odd) {
+    background: #333333;
 }
 
 section .container {
@@ -337,9 +345,26 @@ section .container {
     margin-bottom: 40px;
 }
 
-/* Простір для останнього елемента */
+/* Додаткові стилі для вищої висоти */
+.container {
+    padding-bottom: 120px;
+}
+
+header, .info, .steps, .access, .procedure, .how-it-works {
+    padding: 80px 0;
+}
+
+/* Підвищення висоти на останніх секціях */
 .how-it-works {
-    margin-bottom: 100px;
+    margin-bottom: 120px;
+}
+
+/* Гнучке розташування для останніх блоків */
+.steps, .access, .procedure, .how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
 }
 
 
