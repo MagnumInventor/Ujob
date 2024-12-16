@@ -166,11 +166,13 @@
 
 body {
     font-family: "Kanit";
-    background-color: rgb(15, 15, 15);
-    color: rgb(228, 235, 232);
 
     margin: 0;
-    padding: 0;
+      padding: 0;
+      background-image: url('MEDIA\Leonardo_Vision_XL_Create_an_abstract_dark_background_for_webs_2.jpg'); /* Заміни на свій шлях */
+      background-size: cover; /* Масштабування, щоб фон заповнив сторінку */
+      background-repeat: no-repeat; /* Не повторювати */
+      background-position: center; /* Центрувати фон */
     width: 100%;
 
     overflow-x: hidden; /* Приховуємо горизонтальну прокрутку */
