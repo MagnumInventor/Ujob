@@ -332,14 +332,6 @@ section {
     padding: 80px 0;
 }
 
-section:nth-of-type(even) {
-    background: #1E1E1E;
-}
-
-section:nth-of-type(odd) {
-    background: #333333;
-}
-
 section .container {
     margin-top: 40px;
     margin-bottom: 40px;
