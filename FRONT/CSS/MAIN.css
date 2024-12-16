@@ -56,7 +56,7 @@
             
                 font-size: 20px;
                 font-weight: 499;
-                font-family: "Rethink Sans";
+                font-family: "Manrope";
             
                 border-bottom: 2px solid transparent;
                 transition: border-bottom 0.3s ease;
@@ -65,47 +65,7 @@
             .nav-text-aft:hover, .nav-text-mid:hover, .nav-text-bef:hover {
                 border-bottom: 2px solid rgba(65, 107, 82, 1); /* Колір підкреслення при наведенні */
             }
-            
-            nav {
-                background-color: transparent; /* Фон навігації залишається прозорим */
-                
-                margin-left: 30px;
-                margin-right: 30px;
-            }
-            
-            nav ul {
-                list-style: none;
-                display: flex;
-                padding: 0;
-                margin: 0;
-                width: 100%; /* Задаємо ширину 100% для навігації */
-                justify-content: space-between; /* Вирівнюємо елементи */
-            }
-            
-            nav ul li {
-                margin: 0; /* Прибрано зовнішні відступи */
-            }
-            
-            nav ul li a {
-                text-decoration: none;
-                color: rgb(221, 230, 221);
-                font-size: 1.2rem;
-                font-weight: bold;
-                text-transform: uppercase;
-                
-                padding: 20px 15px; /* Внутрішні відступи для всього меню */
-                background-color: rgba(90, 99, 94, 0.5); /* Напівпрозорий зелений фон */
-                transition: background-color 0.3s, color 0.3s; /* Плавний перехід */
-            
-                display: flex;
-                align-items: center;
-                height: 60px; /* Висота посилань для вирівнювання */
-            }
-            
-            nav ul li a:hover {
-                background-color: rgb(50, 85, 63); /* Непрозорий зелений фон */
-                color: rgb(33, 34, 34); /* Текст змінюється на чорний при наведенні */
-            }
+        
             
             .social-icons {
                 display: inherit;
@@ -223,7 +183,7 @@ footer {
     footer .copyright {
     margin-top: 20px;
     font-size: 14px;
-    color: #888;
+    color: #ffffff;
     font-family: "Montserrat";
     }
         /* FOOTER */
@@ -268,55 +228,7 @@ footer {
                         display: flex;
                         margin-top: 15px;
                     }
-                
-                    nav {
-                        display: none;
-                        max-width: 100%;
-                    }
-                            nav.active {
-                                display: flex;
-                            }
-                
-                    nav ul {
-                        display: flex;
-                        flex-direction: grid; 
-                        width: auto;
-                    }
-                
-                    nav ul li {
-                        width: 100%; 
-                        display: block; 
-                    }
-                
-                    nav ul li a {
-                        display: block; 
-                        width: 100%; 
-                       
-                        text-align: center; 
-                        background-color: inherit; 
-                
-                        background-color: rgba(90, 99, 94, 0.2.5);
-                        transition: background-color 0.3s, color 0.3s; 
-                    }
-                        nav ul li a:hover {
-                            background-color: rgb(50, 85, 63);
-                            color: rgb(33, 34, 34); 
-                        }
-                
-                    .nav-points {
-                        display: none;
-                    }
-                            .nav-points.active {
-                                display: grid;
-                                justify-content: center;
-                                text-align: center;
-                        
-                                padding-top: 10px;
-                                padding-bottom: 10px;
-                                width: 100%; 
-                                max-width: none; 
-                            }
-                
+
                     .social-icons {
                         display: none;
                     }
