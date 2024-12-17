@@ -127,7 +127,7 @@
   .input-group input {
     width: 100%;
     border-radius: 0.375rem;
-    border: 1px solid rgba(55, 65, 81, 1);
+    border: 1px solid #0095af;
     outline: 0;
     background-color: rgba(17, 24, 39, 1);
     padding: 0.75rem 1rem;
@@ -135,7 +135,7 @@
   }
   
   .input-group input:focus {
-    border-color: rgba(167, 139, 250);
+    border-color: #00b5d4;
   }
   
   .forgot {
@@ -154,19 +154,22 @@
   }
   
   .forgot a:hover, .signup a:hover {
-    text-decoration: underline rgba(167, 139, 250, 1);
+    text-decoration: underline #0095af;
   }
   
   .sign {
     display: block;
     width: 100%;
-    background-color: rgba(167, 139, 250, 1);
+    background-color: #00afce;
     padding: 0.75rem;
+
     text-align: center;
     color: rgba(17, 24, 39, 1);
     border: none;
+
     border-radius: 0.375rem;
     font-weight: 600;
+    font-size: 18px;
   }
   
   .social-message {
@@ -178,6 +181,7 @@
   .line {
     height: 1px;
     flex: 1 1 0%;
+
     background-color: rgba(55, 65, 81, 1);
   }
   
@@ -186,6 +190,7 @@
     padding-right: 0.75rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
+
     color: rgba(156, 163, 175, 1);
   }
   
@@ -197,6 +202,7 @@
   .social-icons .icon {
     border-radius: 0.125rem;
     padding: 0.75rem;
+
     border: none;
     background-color: transparent;
     margin-left: 8px;
@@ -205,6 +211,7 @@
   .social-icons .icon svg {
     height: 1.25rem;
     width: 1.25rem;
+
     fill: #fff;
   }
   
@@ -212,6 +219,7 @@
     text-align: center;
     font-size: 0.75rem;
     line-height: 1rem;
+    
     color: rgba(156, 163, 175, 1);
   }
   
