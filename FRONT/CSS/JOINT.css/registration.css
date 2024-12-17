@@ -9,7 +9,20 @@
 
 
             /* BODY */
-/* From Uiverse.io by Yaya12085 */ 
+
+
+            .reg-section {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                margin: 0 auto;
+                width: 80%;
+
+                margin-top: 150px;
+                margin-bottom: 150px;
+            }
+
 .form-container {
     width: 320px;
     border-radius: 0.75rem;
