@@ -13,17 +13,28 @@
             .container {
                 display: flex;
                 justify-content: space-between;
-                gap: 20px;
+                gap: 50px;
                 padding: 20px;
+
+                width: 1800px;
+                min-width: 1350px;
+
+                height: 900px;
               }
               
               .card {
                 background-color: #111111;
                 border: 3px solid #ff6600; /* Помаранчева рамка */
                 border-radius: 15px;
-                width: 250px;
+
+                width: 450px;
+                height: 600px;
+
                 text-align: center;
                 padding: 15px;
+                margin-top: 125px;
+                margin-bottom: 125px;
+
                 box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
                 color: white;
                 position: relative;
@@ -56,8 +67,10 @@
                 background-color: #ff6600;
                 color: white;
                 font-size: 20px;
+
                 width: 24px;
                 height: 24px;
+
                 text-align: center;
                 line-height: 24px;
                 border-radius: 50%;
@@ -87,20 +100,25 @@
                 background-color: white; /* Іконка */
               }
               
-              .button {
+              .view-button {
                 background-color: #111111;
-                border: 2px solid #ff6600;
+                border: 3px solid #ff6600;
                 color: #fff;
+
                 padding: 10px 15px;
                 font-weight: bold;
+                font-size: 20px;
                 border-radius: 20px;
                 margin-top: 10px;
+                    height: 75px;
+                    width: 250px;
+
                 cursor: pointer;
                 text-transform: uppercase;
                 transition: all 0.3s ease;
               }
               
-              .button:hover {
+              .view-button:hover {
                 background-color: #ff6600;
                 color: #111111;
               }
