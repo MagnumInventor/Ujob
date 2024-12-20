@@ -140,48 +140,13 @@ html, body {
     height: 100%; /* Встановлюємо висоту на весь екран */
 
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), 
-                url('../../../MEDIA/Aleksandr_Markovich_An_abstract_visual_journey_unfolds\,_showcasing_a_c_9fee4563-8f39-461d-9c64-c8e9c6d0741e.mp4'); /* Додаємо напівпрозорий шар */
+                url('../../../MEDIA/bg2.jpg'); /* Додаємо напівпрозорий шар */
     background-size: cover; /* Масштабування, щоб фон заповнив сторінку */
     background-repeat: no-repeat; /* Не повторювати */
     background-position: center; /* Центрувати фон */
 
     overflow-x: hidden; /* Приховуємо горизонтальну прокрутку */
 }
-html, body {
-    font-family: "Manrope";
-    color: #ffffff;
-
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%; /* Встановлюємо висоту на весь екран */
-
-    overflow: hidden; /* Приховуємо прокрутку */
-}
-
-.video-background {
-    position: fixed; /* Відео завжди залишається на фоні */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Переміщаємо відео під інші елементи */
-    overflow: hidden;
-}
-
-.video-background video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Масштабування відео, щоб заповнити фон */
-}
-
-.content {
-    position: relative; /* Елементи поверх відео */
-    z-index: 1;
-    text-align: center;
-    padding: 20px;
-}
-
 
 .container {
     max-width: 1200px;
