@@ -365,13 +365,18 @@ section .container {
 
             /* FOOTER */
 
+            .footer-line {
+                border-top: 2px solid #ddd;
+                width: auto;
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+                padding-top: 10px; /* Якщо потрібно відступ для симуляції тіні */
+            }            
+
 footer {
     background-color: transparent;
     
     padding: 20px;
     text-align: center;
-
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     
     font-family: "Montserrat";
     }
