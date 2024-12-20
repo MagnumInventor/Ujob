@@ -147,6 +147,41 @@ html, body {
 
     overflow-x: hidden; /* Приховуємо горизонтальну прокрутку */
 }
+html, body {
+    font-family: "Manrope";
+    color: #ffffff;
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; /* Встановлюємо висоту на весь екран */
+
+    overflow: hidden; /* Приховуємо прокрутку */
+}
+
+.video-background {
+    position: fixed; /* Відео завжди залишається на фоні */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Переміщаємо відео під інші елементи */
+    overflow: hidden;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Масштабування відео, щоб заповнити фон */
+}
+
+.content {
+    position: relative; /* Елементи поверх відео */
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+}
+
 
 .container {
     max-width: 1200px;
