@@ -5,13 +5,13 @@ const vacancyButton = document.getElementById('open-vacancy-button');
 const openVacancyMenu = document.getElementById('card-body');
 
 // Функція для відкриття/закриття меню
-function toggleSortingMenu() {
+function toggleVacancyMenu() {
     vacancyButton.toggle('active');
     openVacancyMenu.toggle('active');
 }
 
 // Додавання обробника подій до кнопки
-buttonCheckmarkSorting.addEventListener('click', toggleSortingMenu);
+vacancyButton.addEventListener('click', toggleVacancyMenu);
 
 // === Utility Functions (якщо необхідно) ===
 
