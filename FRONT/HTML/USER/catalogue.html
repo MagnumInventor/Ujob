@@ -110,8 +110,8 @@
     <div class="vacancy-info">
     <h3>Опис:</h3>Інноваційна школа мистецтв, яка пропонує онлайн та офлайн курси з живопису, графіки, фотографії, скульптури та інших напрямків. Art School прагне розвивати творчі здібності студентів, допомагаючи їм створювати унікальні твори мистецтва та розвивати професійні навички.
     </div>
-         <button class="open-vacancy-button" id="open-vacancy-button">РОБОЧІ МІСЦЯ
-            <span class="check1">&#11013;</span>
+         <button class="open-vacancy-button" id="open-vacancy-button"><span class="check-left">&#11013;</span>РОБОЧІ МІСЦЯ
+            <span class="check-right">&#11013;</span>
          </button>
             <div class="card-body">
                 <div class="role">Менеджер</div>
@@ -155,7 +155,20 @@
 
 
 
-  <script></script>
+  <script>
+    
+    const buttonCheckmarkSorting = document.getElementById('button-menu-catalogue-sorting');
+const dropdownSorting = document.getElementById('dropdown-sorting');
+const dropdownBurgerSorting = document.getElementById('burger-menu-catalogue-sorting');
+
+// Відкриття/закриття меню при натисканні на кнопку
+buttonCheckmarkSorting.addEventListener('click', () => {
+    dropdownSorting.classList.toggle('active');
+    buttonCheckmarkSorting.classList.toggle('active'); 
+    dropdownBurgerSorting.classList.toggle('active');
+});
+
+  </script>
 
 
 
