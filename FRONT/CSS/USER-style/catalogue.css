@@ -171,7 +171,18 @@
                   text-transform: uppercase;
                   transition: all 0.3s ease;
             } 
-            
+                .check-left {
+                  transform: rotate(180);
+                }
+                .check-right {
+                  transform: rotate(0);
+                }
+            .check-right.active {
+              transform: rotate(-45deg);
+          }
+          .check-left.active {
+            transform: rotate(-45deg);
+        }
               .pagination {
                 position: absolute;
                 bottom: 20px;
