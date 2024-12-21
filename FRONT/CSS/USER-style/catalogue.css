@@ -44,6 +44,8 @@
          .card-body {
           display: none;
           transition: all 0.3s ease-in-out;
+
+          margin-bottom: 20px;
          }
          .card-body.active {
           display: block;
@@ -106,6 +108,10 @@
                 font-size: 18px;
                 font-weight: 500;
                 font-family: "Montserrat";
+
+                padding: 5px;
+                margin-right: 25px;
+                text-align: right;
               }
               
               .member {
@@ -178,7 +184,9 @@
             .check-left, .check-right {
               display: inline-block; /* Забезпечує видимість */
               transition: transform 0.3s ease-in-out; /* Плавність анімації */
-          }
+                margin-left: 15px;
+                margin-right: 15px;
+            }
             .check-right.active {
               transform: rotate(-45deg);
           }
