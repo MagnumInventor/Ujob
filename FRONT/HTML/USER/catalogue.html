@@ -165,11 +165,10 @@ const vacancyButton = document.getElementById('open-vacancy-button');
 const openVacancyMenu = document.getElementById('card-body');
 
 // Функція для відкриття/закриття меню
-function toggleSortingMenu() {
-    vacancyButton.toggle('active');
-    openVacancyMenu.toggle('active');
-}
-
+    vacancyButton.addEventListener('click', () => {
+        vacancyButton.classList.toggle('active');
+        openVacancyMenu.classList.toggle('active');
+});
 
   </script>
 
