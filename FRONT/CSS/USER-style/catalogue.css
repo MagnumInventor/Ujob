@@ -43,6 +43,7 @@
           
          .card-body {
           display: none;
+          transition: all 0.3s ease-in-out;
          }
          .card-body.active {
           display: block;
@@ -171,12 +172,10 @@
                   text-transform: uppercase;
                   transition: all 0.3s ease;
             } 
-                .check-left {
-                  transform: rotate(180);
-                }
-                .check-right {
-                  transform: rotate(0);
-                }
+            .check-left, .check-right {
+              display: inline-block; /* Забезпечує видимість */
+              transition: transform 0.3s ease-in-out; /* Плавність анімації */
+          }
             .check-right.active {
               transform: rotate(-45deg);
           }
