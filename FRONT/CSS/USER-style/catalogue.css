@@ -39,13 +39,24 @@
                 color: white;
                 position: relative;
               }
-              
+        
+        .vacancy-info {
+          font-size: 15px;
+          font-family: "Montserrat";
+
+          padding: 10px;
+        }
+
               .card-header {
                 background: linear-gradient(to bottom, #ffffff, #99ccff);
+               
                 border-radius: 10px;
                 padding: 10px;
+
                 color: #fff;
                 font-weight: bold;
+                text-shadow: #111111b4 0px 0 10px;
+
                 font-size: 20px;
                 margin-bottom: 15px;
               }
