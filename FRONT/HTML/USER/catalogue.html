@@ -158,16 +158,18 @@
 
   <script>
 
-    const buttonCheckmarkSorting = document.getElementById('button-menu-catalogue-sorting');
-const dropdownSorting = document.getElementById('dropdown-sorting');
-const dropdownBurgerSorting = document.getElementById('burger-menu-catalogue-sorting');
+// === Dropdown Menu Handling ===
 
-// Відкриття/закриття меню при натисканні на кнопку
-buttonCheckmarkSorting.addEventListener('click', () => {
-    dropdownSorting.classList.toggle('active');
-    buttonCheckmarkSorting.classList.toggle('active'); 
-    dropdownBurgerSorting.classList.toggle('active');
-});
+// Елементи для взаємодії
+const vacancyButton = document.getElementById('open-vacancy-button');
+const openVacancyMenu = document.getElementById('card-body');
+
+// Функція для відкриття/закриття меню
+function toggleSortingMenu() {
+    vacancyButton.toggle('active');
+    openVacancyMenu.toggle('active');
+}
+
 
   </script>
 

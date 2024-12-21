@@ -1,15 +1,13 @@
 // === Dropdown Menu Handling ===
 
 // Елементи для взаємодії
-const buttonCheckmarkSorting = document.getElementById('button-menu-catalogue-sorting');
-const dropdownSorting = document.getElementById('dropdown-sorting');
-const dropdownBurgerSorting = document.getElementById('burger-menu-catalogue-sorting');
+const vacancyButton = document.getElementById('open-vacancy-button');
+const openVacancyMenu = document.getElementById('card-body');
 
 // Функція для відкриття/закриття меню
 function toggleSortingMenu() {
-    dropdownSorting.classList.toggle('active');
-    buttonCheckmarkSorting.classList.toggle('active');
-    dropdownBurgerSorting.classList.toggle('active');
+    vacancyButton.toggle('active');
+    openVacancyMenu.toggle('active');
 }
 
 // Додавання обробника подій до кнопки
