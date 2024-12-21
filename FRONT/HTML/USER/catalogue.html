@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="/Ujob/FRONT/CSS/MAIN.css">
 
   <link rel="stylesheet" href="/Ujob/FRONT/CSS/USER-style/catalogue.css">
+  <script src="catalogue.js"></script>
 
   <script src="../PATH/path.js"></script>
 
@@ -113,7 +114,7 @@
          <button class="open-vacancy-button" id="open-vacancy-button"><span class="check-left">&#11013;</span>РОБОЧІ МІСЦЯ
             <span class="check-right">&#11013;</span>
          </button>
-            <div class="card-body">
+            <div class="card-body" id="card-body">
                 <div class="role">Менеджер</div>
                 <div class="role">СММ</div>
                 <div class="role">Дизайнер</div>
@@ -156,7 +157,7 @@
 
 
   <script>
-    
+
     const buttonCheckmarkSorting = document.getElementById('button-menu-catalogue-sorting');
 const dropdownSorting = document.getElementById('dropdown-sorting');
 const dropdownBurgerSorting = document.getElementById('burger-menu-catalogue-sorting');

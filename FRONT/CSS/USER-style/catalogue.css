@@ -40,6 +40,13 @@
                 color: white;
                 position: relative;
               }
+          
+         .card-body {
+          display: none;
+         }
+         .card-body.active {
+          display: block;
+         }
         
         .vacancy-info {
           font-size: 15px;
