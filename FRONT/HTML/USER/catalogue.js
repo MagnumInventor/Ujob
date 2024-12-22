@@ -5,6 +5,7 @@
 fetch('/Ujob/SERVER/DATA/USER/catalogue.json')
     .then(response => response.json())
     .then(data => {
+        
         const project = data.project;
         const container = document.getElementById('projects-container');
 
