@@ -49,17 +49,25 @@ fetch('/Ujob/SERVER/DATA/USER/catalogue.json')
         });
         card.appendChild(cardBody);
 
-        // Додаємо команду проекту
-        const team = document.createElement('div');
-        innerHTML = `<h3>Учасники проекту:</h3>`
-        team.classList.add('team');
-        project.team.forEach(member => {
-            const teamMember = document.createElement('div');
-            teamMember.classList.add('team-member');
-            teamMember.innerHTML = `${member.name} <img src="${member.image}" alt="member-image">`;
-            team.appendChild(teamMember);
-        });
-        card.appendChild(team);
+// Додаємо команду проекту
+const team = document.createElement('div');
+team.classList.add('team');
+
+// Створюємо заголовок для учасників проекту
+const teamHeader = document.createElement('h3');
+teamHeader.textContent = 'Учасники проекту:';
+team.appendChild(teamHeader); // Додаємо заголовок до команди
+
+// Додаємо учасників
+project.team.forEach(member => {
+    const teamMember = document.createElement('div');
+    teamMember.classList.add('team-member');
+    teamMember.innerHTML = `${member.name} <img src="${member.image}" alt="member-image">`;
+    team.appendChild(teamMember);
+});
+
+card.appendChild(team);
+
 
         // Кнопка для перегляду детальної інформації
         const viewButton = document.createElement('button');
