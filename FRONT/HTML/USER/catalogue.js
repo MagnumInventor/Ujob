@@ -68,7 +68,6 @@ project.team.forEach(member => {
 
 card.appendChild(team);
 
-
         // Кнопка для перегляду детальної інформації
         const viewButton = document.createElement('button');
         viewButton.classList.add('view-button');
