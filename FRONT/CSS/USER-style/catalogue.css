@@ -272,10 +272,12 @@
                   display: flex;
                   flex-wrap: wrap; /* Дозволяє карткам переноситися на новий рядок, якщо немає місця */
                   
-                  gap: 40px; /* Відстань між картками */
+                  gap: 20px; /* Відстань між картками */
                   padding: 20px; /* Відступи всередині контейнера */
              
-                  margin-left: 150px;
+                  margin-left: 50px;
+                  margin-right: 50px;
+                  justify-content: center;
                 }
             /* BODY */
 
