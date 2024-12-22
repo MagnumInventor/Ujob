@@ -32,7 +32,7 @@ fetch('/Ujob/SERVER/DATA/USER/catalogue.json')
         vacancyButton.type = 'button';
         vacancyButton.innerHTML = `
             <span class="check-left" id="check-left">&#11013;</span>
-            РОБОЧІ МІСЦЯ
+            ВІЛЬНІ ПОСАДИ
             <span class="check-right" id="check-right">&#11013;</span>
         `;
         card.appendChild(vacancyButton);
@@ -51,6 +51,7 @@ fetch('/Ujob/SERVER/DATA/USER/catalogue.json')
 
         // Додаємо команду проекту
         const team = document.createElement('div');
+        innerHTML = `<h3>Учасники проекту:</h3>`
         team.classList.add('team');
         project.team.forEach(member => {
             const teamMember = document.createElement('div');
