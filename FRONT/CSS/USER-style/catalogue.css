@@ -259,7 +259,7 @@
 
 
                     /* MOBILE Interface */
-
+                    @media (max-width: 768px) {
 
 
                 /* HEADER */
@@ -268,7 +268,15 @@
 
 
                 /* BODY */
-
+                #projects-container {
+                  display: flex;
+                  flex-wrap: wrap; /* Дозволяє карткам переноситися на новий рядок, якщо немає місця */
+                  
+                  gap: 40px; /* Відстань між картками */
+                  padding: 20px; /* Відступи всередині контейнера */
+             
+                  margin-left: 150px;
+                }
             /* BODY */
 
 
@@ -278,4 +286,4 @@
 
 
 
-        /* MOBILE Interface */
+        /* MOBILE Interface */}

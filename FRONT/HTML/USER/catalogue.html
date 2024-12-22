@@ -66,54 +66,6 @@
 
 <div class="project-container" id="projects-container"></div>
 
-    <!--<div class="container">
-      <div class="card">
-          <div class="card-header">
-              <h2>EcoFlow</h2>
-          </div>
-    <div class="vacancy-info">
-    <h3>Опис:</h3>Стартап, що займається розробкою та впровадженням інноваційних рішень для збереження енергії та екології. EcoFlow пропонує портативні сонячні панелі, енергозберігаючі пристрої та інші продукти, що дозволяють знижувати вуглецевий слід та підвищувати ефективність використання природних ресурсів.
-    </div>
-    <button class="open-vacancy-button" id="open-vacancy-button" type="button"><span class="check-left" id="check-left">&#11013;</span>РОБОЧІ МІСЦЯ
-        <span class="check-right" id="check-right">&#11013;</span>
-     </button>
-        <div class="card-body" id="card-body">
-            <div class="role">Менеджер</div>
-            <div class="role">СММ</div>
-            <div class="role">Дизайнер</div>
-            <div class="role">Розробник</div>
-        </div>
-      <div class="team">
-          <div class="team-member">Катерина Шпак<img src="/MEDIA/darkbackground.jpg" alt="member-image"></div>
-          <div class="team-member">Марко Іванович<img src="/MEDIA/darkbackground.jpg" alt="member-image"></div>
-      </div>
-          <button class="view-button">ДЕТАЛЬНІШЕ</button>
-      </div>
-
-      <div class="card">
-          <div class="card-header">
-              <h2>Art School</h2>
-          </div>
-    <div class="vacancy-info">
-    <h3>Опис:</h3>Інноваційна школа мистецтв, яка пропонує онлайн та офлайн курси з живопису, графіки, фотографії, скульптури та інших напрямків. Art School прагне розвивати творчі здібності студентів, допомагаючи їм створювати унікальні твори мистецтва та розвивати професійні навички.
-    </div>
-         <button class="open-vacancy-button" id="open-vacancy-button" type="button"><span class="check-left" id="check-left">&#11013;</span>РОБОЧІ МІСЦЯ
-            <span class="check-right" id="check-right">&#11013;</span>
-         </button>
-            <div class="card-body" id="card-body">
-                <div class="role">Менеджер</div>
-                <div class="role">СММ</div>
-                <div class="role">Дизайнер</div>
-                <div class="role">Розробник</div>
-            </div>
-          <div class="team">
-              <div class="team-member">Катерина Шпак<img src="/MEDIA/darkbackground.jpg" alt="member-image"></div>
-              <div class="team-member">Марко Іванович<img src="/MEDIA/darkbackground.jpg" alt="member-image"></div>
-          </div>
-          <button class="view-button">ДЕТАЛЬНІШЕ</button>
-      </div>
-  </div>-->
-
   </main>
 
 
@@ -140,26 +92,5 @@
         </div>
     </footer>
 
-
-
- <script>
-document.addEventListener('DOMContentLoaded', () => {
-    const vacancyButton = document.getElementById('open-vacancy-button');
-    const cardBody = document.getElementById('card-body');
-
-    if (vacancyButton && cardBody) {
-        vacancyButton.addEventListener('click', (event) => {
-            event.preventDefault(); // Запобігаємо перезавантаженню сторінки
-            cardBody.classList.toggle('active');
-            console.log('Тиснули на кнопку, клас активується:', cardBody.classList.contains('active'));
-        });
-    } else {
-        console.error('Елементи button або card-body не знайдено!');
-    }
-});
-  </script>
-
-
-<script src="catalogue.js"></script>
 </body>
 </html>

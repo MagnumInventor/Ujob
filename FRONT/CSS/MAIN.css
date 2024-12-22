@@ -427,12 +427,12 @@ footer {
 
 
                     /* MOBILE Interface */
-
+                    @media (max-width: 768px) {
 
 
                 /* HEADER */
 
-                @media (max-width: 768px) {
+                
                     header {
                         display: flex;
                         flex-direction: column;
@@ -484,7 +484,7 @@ footer {
                     .burger-menu.active span:nth-child(3) {
                         transform: rotate(-45deg) translate(5px, -6px);
                     }     
-                }           
+                           
 
             /* HEADER */
 
@@ -500,4 +500,4 @@ footer {
 
 
 
-        /* MOBILE Interface */
+        /* MOBILE Interface */}
