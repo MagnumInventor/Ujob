@@ -29,7 +29,7 @@
                 max-width: 500px;
                 max-height: 1000px;
                 width: 450px;
-                height: 950px;
+                height: auto;
 
                 text-align: center;
                 padding: 5px;
@@ -162,10 +162,6 @@
                   margin-top: 10px;
                       height: 75px;
                       width: 349px;
-
-                  position: absolute;
-                bottom: 5px;
-                  transform: translateX(-50%);
 
                   cursor: pointer;
                   text-transform: uppercase;
