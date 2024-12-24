@@ -1,19 +1,19 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const cookieBanner = document.getElementById("cookie-banner");
+    const cookieCard = document.getElementById("cookie-card");
     const acceptButton = document.getElementById("accept-cookies");
     const declineButton = document.getElementById("decline-cookies");
   
     // Показ банера через 1 секунду
     setTimeout(() => {
-      cookieBanner.classList.remove("hidden");
-      cookieBanner.classList.add("visible");
+      cookieCard.classList.remove("hidden");
+      cookieCard.classList.add("visible");
     }, 1000);
   
     // Закриття банера
     const closeBanner = () => {
-      cookieBanner.classList.remove("visible");
-      cookieBanner.classList.add("hidden");
-      setTimeout(() => (cookieBanner.style.display = "none"), 400);
+      cookieCard.classList.remove("visible");
+      cookieCard.classList.add("hidden");
+      setTimeout(() => (cookieCard.style.display = "none"), 400);
     };
   
     // Обробка кнопок
