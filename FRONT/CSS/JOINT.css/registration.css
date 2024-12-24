@@ -246,23 +246,18 @@
 
 
 
-                    /* MOBILE Interface */
+                    /* MOBILE Interface */@media (max-width: 768px) {
 
 
 
                 /* HEADER */
-@media (max-width: 768px) {
-      .header-content {
-        flex-direction: column; /* Коли екран менший, лого та кнопка розміщуються один над одним */
-        align-items: center;
-        text-align: center;
-      }
+
 
       .button {
         font-size: 14px; /* Зменшення розміру шрифта для мобільного екрану */
         padding-inline: 1rem; /* Зменшення відступів для мобільних */
       }
-    }
+    
             /* HEADER */
 
 
@@ -277,4 +272,4 @@
 
 
 
-        /* MOBILE Interface */
+        /* MOBILE Interface */}

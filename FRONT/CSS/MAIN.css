@@ -435,6 +435,11 @@ footer {
                         width: 100%;
                         height: fit-content;
                     }
+                    .header-content {
+                        flex-direction: column; /* Коли екран менший, лого та кнопка розміщуються один над одним */
+                        align-items: center;
+                        text-align: center;
+                      }
 
                 .nav-points {
                     display: none;
