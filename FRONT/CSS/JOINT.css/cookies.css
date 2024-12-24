@@ -38,13 +38,6 @@
     justify-content: center;
     position: fixed;
 
-    margin-top: 500px;
-    margin-left: 40%; 
-  bottom: 20px;
-  right: 20px;
-  padding: 20px;
-    gap: 13px;
-
     position: relative;
     overflow: hidden;
 
