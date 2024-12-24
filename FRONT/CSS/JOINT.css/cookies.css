@@ -5,7 +5,7 @@
             /* BODY */
       .cookie-banner {
         position: fixed;
-        
+
         top: 0;
         left: 0;
         width: 100%;
@@ -50,15 +50,19 @@
   transform: translateY(20px);
   transition: opacity 0.4s ease, transform 0.4s ease;
   }
-
-  .cookie-card.hidden {
-    display: none;
-  }
   
-  .cookie-card.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
+      .cookie-card.hidden {
+        opacity: 0;
+        transition: opacity 0.4s ease;
+        pointer-events: none;
+    }
+
+    .cookie-card.visible {
+        opacity: 1;
+        transition: opacity 0.4s ease;
+        pointer-events: auto;
+    }
+
   
   #cookieSvg {
     width: 50px;

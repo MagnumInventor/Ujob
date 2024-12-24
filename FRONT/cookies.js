@@ -3,9 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const acceptButton = document.getElementById("accept-cookies");
   const declineButton = document.getElementById("decline-cookies");
 
-  // Показ банера відразу після завантаження
-  cookieCard.classList.remove("hidden");
-  cookieCard.classList.add("visible");
+  // Перевірка стану cookie
+  if (!localStorage.getItem("cookiesAccepted")) {
+      cookieCard.classList.remove("hidden");
+      cookieCard.classList.add("visible");
+  }
 
   // Закриття банера
   const closeBanner = () => {
@@ -24,9 +26,5 @@ document.addEventListener("DOMContentLoaded", () => {
       closeBanner();
       localStorage.setItem("cookiesAccepted", "false");
   });
-
-  // Перевірка стану cookie
-  if (localStorage.getItem("cookiesAccepted")) {
-      cookieCard.style.display = "none";
-  }
 });
+
