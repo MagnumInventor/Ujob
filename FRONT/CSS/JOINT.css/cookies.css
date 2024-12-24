@@ -14,6 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: fixed;
 
     padding: 20px 30px;
     gap: 13px;
@@ -57,7 +58,7 @@
   
   .cookieDescription a {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246);
+    color: rgb(55, 165, 255);
   }
   
   .cookieDescription a:hover {
@@ -74,7 +75,7 @@
   .acceptButton {
     width: 80px;
     height: 30px;
-    background-color: #7b57ff;
+    background-color: #00D9FF;
     transition-duration: .2s;
     border: none;
     color: rgb(241, 241, 241);
