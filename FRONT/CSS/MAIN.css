@@ -431,12 +431,13 @@ footer {
                 
                     header {
                         display: flex;
-                        flex-direction: column;
+                        flex-direction: row; 
+                        
                         width: 100%;
-                        height: fit-content;
+                        max-height: 150px;
+                        height: 100px;
                     }
                     .header-content {
-                        flex-direction: column; /* Коли екран менший, лого та кнопка розміщуються один над одним */
                         align-items: center;
                         text-align: center;
                       }

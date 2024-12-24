@@ -254,8 +254,12 @@
 
 
       .button {
-        font-size: 14px; /* Зменшення розміру шрифта для мобільного екрану */
-        padding-inline: 1rem; /* Зменшення відступів для мобільних */
+        font-size: 14px; 
+        padding-inline: 1rem;
+
+        justify-content: right;
+        justify-self: right;
+        justify-items: right;
       }
     
             /* HEADER */
