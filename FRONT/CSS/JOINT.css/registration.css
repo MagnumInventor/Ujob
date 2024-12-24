@@ -8,16 +8,20 @@
 .button {
     position: relative;
     transition: all 0.3s ease-in-out;
+
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
     padding-block: 0.5rem;
     padding-inline: 1.25rem;
+
     background-color: #0095af;
-    border-radius: 9999px;
+    border-radius: 99px;
+
     display: flex;
     align-items: center;
     justify-content: center;
     color: #ffff;
     gap: 10px;
+
     font-weight: bold;
     border: 3px solid #ffffff4d;
     outline: none;
@@ -247,7 +251,18 @@
 
 
                 /* HEADER */
+@media (max-width: 768px) {
+      .header-content {
+        flex-direction: column; /* Коли екран менший, лого та кнопка розміщуються один над одним */
+        align-items: center;
+        text-align: center;
+      }
 
+      .button {
+        font-size: 14px; /* Зменшення розміру шрифта для мобільного екрану */
+        padding-inline: 1rem; /* Зменшення відступів для мобільних */
+      }
+    }
             /* HEADER */
 
 

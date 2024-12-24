@@ -337,13 +337,9 @@ section .container {
     margin-bottom: 10px;
 }
 
-/* Додаткові стилі для вищої висоти */
-.container {
-    padding-bottom: 120px;
-}
-
 .info, .steps, .access, .procedure, .how-it-works {
     padding: 60px 0;
+    margin-left: 20px;
 }
 
 /* Підвищення висоти на останніх секціях */
@@ -439,58 +435,24 @@ footer {
                         width: 100%;
                         height: fit-content;
                     }
-                
-                        .header-content {
-                            width: 100%;
-                        }
-                    .logo {
-                        margin-left: 30px;
-                    }
-                    .burger-menu {
-                        display: flex;
-                    }
-                
-                    .logo {
-                        display: flex;
-                        margin-top: 15px;
-                    }
 
-                    .social-icons {
-                        display: none;
-                    }
-                
-                    .black-line {
-                        background-color: transparent;
-                    }
-                        .black-line.active {
-                            background-color: #e9eeec;
-                            height: 3px;
-                            width: 100%;
-                
-                            margin: 0%;
-                            padding: 0%;
-                
-                            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-                        }
-                
-                    .burger-menu.active span:nth-child(1) {
-                        transform: rotate(45deg) translate(5px, 6px);
-                    }
-                
-                    .burger-menu.active span:nth-child(2) {
-                        opacity: 0;
-                    }
-                
-                    .burger-menu.active span:nth-child(3) {
-                        transform: rotate(-45deg) translate(5px, -6px);
-                    }     
+                .nav-points {
+                    display: none;
+                }
+                    
+                    
+    
                            
 
             /* HEADER */
 
 
                 /* BODY */
-
+                .info, .access, .procedure, .how-it-works {
+                    padding: 40px 0;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
             /* BODY */
 
 
