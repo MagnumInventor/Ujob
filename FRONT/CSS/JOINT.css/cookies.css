@@ -3,7 +3,7 @@
 
 
             /* BODY */
-      .cookie-banner {
+      .cookie-banner.visible{
         position: fixed;
 
         top: 0;
@@ -16,7 +16,14 @@
         align-items: center;
 
         z-index: 1000; /* Щоб банер був поверх усього вмісту */
+        background-color: rgba(0, 0, 0, 0.7); /* Легкий темний фон */
     }
+    .cookie-banner.hidden {
+      position: fixed;
+      display: none;
+
+      background-color: rgba(0, 0, 0, 0); /* Легкий темний фон */
+  }
           
 .cookie-card {
     width: 300px;
